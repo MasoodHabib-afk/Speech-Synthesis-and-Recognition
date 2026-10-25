@@ -1,0 +1,16 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Generated audio and personal recordings
+*.wav
+*.m4a
+
+# macOS files
+.DS_Store
